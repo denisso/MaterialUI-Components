@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Item + .Item {
+  margin: 0 1rem;
+}
+
+.Box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Center {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.Header {
+  text-align: center;
+}
